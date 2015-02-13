@@ -397,38 +397,38 @@
         MercadoLibre - Donde compras y vendes de todo </a>
 
         <form id="formSearch" class="nav-search ml-search" action="http://www.mercadolibre.com.ar/jm/search"
-              method="GET" role="search"><input id="query" type="text" class="nav-search-input ml-search-input"
-                                                name="as_word" value="" max-length="120"/>
+              method="GET" role="search"><input autocomplete="off" aria-owns="ac-popover-2" aria-haspopup="true"
+                                                aria-autocomplete="list" id="query"
+                                                class="nav-search-input ml-search-input" name="as_word" value=""
+                                                max-length="120" type="text">
             <button type="submit" name="mlSearchBtn" class="nav-search-btn ml-search-btn"><i
                     class="nav-icon-search ml-icon ml-icon-search"></i> <span class="ch-hide">Buscar</span></button>
         </form>
         <div class="ml-navigation">
-            <ul>    <!-- User user -->    <!-- For Ipad version remove iframe-modal class --><!-- showNickname > NOT -->
-                <li id="register" class="ml-register ch-hide"><a rel="nofollow"
-                                                                 href="https://registration.mercadolibre.com.ar/registration/?confirmation_url=http%3A%2F%2Farticulo.mercadolibre.com.ar%2FMLA-543137667-cartera-blaque-para-mujer-jeri-_JM">Reg&iacute;strate</a>
+            <ul>    <!-- User user -->    <!-- For Ipad version remove iframe-modal class -->
+                <!-- showNickname > NOT -->
+                <li id="register" class="ml-register "><a rel="nofollow"
+                                                          href="https://registration.mercadolibre.com.ar/registration/?confirmation_url=http%3A%2F%2Farticulo.mercadolibre.com.ar%2FMLA-539090304-cortinas-persiana-de-enrollarsuper-reforzada-228-la-mejor-_JM">Regístrate</a>
                 </li>
-                <li id="login" class="ml-login ch-hide"><a rel="nofollow"
-                                                           href="https://www.mercadolibre.com/jms/mla/lgz/login?go=http%3A%2F%2Farticulo.mercadolibre.com.ar%2FMLA-543137667-cartera-blaque-para-mujer-jeri-_JM"
-                                                           class="iframe-modal" data-modal:width="645"
-                                                           data-modal:height="360"
-                                                           data-modal:url="https://www.mercadolibre.com/jms/mla/lgz/login/showFormModal?go=http%3A%2F%2Farticulo.mercadolibre.com.ar%2Fshare%2FreturnMainLogin%3Floged.htm"
-                                                           data-modal:dinamic="true">Ingresa</a></li>
+                <li id="login" class="ml-login "><a rel="nofollow"
+                                                    href="https://www.mercadolibre.com/jms/mla/lgz/login?go=http%3A%2F%2Farticulo.mercadolibre.com.ar%2FMLA-539090304-cortinas-persiana-de-enrollarsuper-reforzada-228-la-mejor-_JM"
+                                                    class="iframe-modal" data-modal:width="645" data-modal:height="360"
+                                                    data-modal:url="https://www.mercadolibre.com/jms/mla/lgz/login/showFormModal?go=http%3A%2F%2Farticulo.mercadolibre.com.ar%2Fshare%2FreturnMainLogin%3Floged.htm"
+                                                    data-modal:dinamic="true">Ingresa</a></li>
                 <!-- showNickname > YES -->    <!-- Add ch-hide class -->
-                <li id="account" class="ml-account "><a href="http://www.mercadolibre.com.ar/jm/myML"
-                                                        title="BARRERAJUANJOSE"> <span id="nickName"
-                                                                                       class="ml-nick-name">BARRERAJUANJOSE</span>
-                    <i class="ml-icon ch-icon-user"></i> </a>
+                <li id="account" class="ml-account ch-hide"><a href="http://www.mercadolibre.com.ar/jm/myML"> <span
+                        id="nickName" class="ml-nick-name"></span> <i class="ml-icon ch-icon-user"></i> </a>
                     <ul class="ch-hide">
                         <li><a rel="nofollow" href="http://myaccount.mercadolibre.com.ar/summary/">Mi cuenta</a></li>
                         <li><a rel="nofollow" id="logout"
-                               href="https://www.mercadolibre.com/jms/mla/lgz/logout?go=http%3A%2F%2Farticulo.mercadolibre.com.ar%2FMLA-543137667-cartera-blaque-para-mujer-jeri-_JM">Salir</a>
+                               href="https://www.mercadolibre.com/jms/mla/lgz/logout?go=http%3A%2F%2Farticulo.mercadolibre.com.ar%2FMLA-539090304-cortinas-persiana-de-enrollarsuper-reforzada-228-la-mejor-_JM">Salir</a>
                         </li>
                     </ul>
                 </li>
                 <!-- Add ch-hide class -->
-                <li id="notification" class="ml-notification "><a id="notiLink" href="#" title="Notificaciones"
-                                                                  class="ml-icon ch-icon-notification"> Notificaciones
-                    <em class="ml-count ch-hide"></em> </a>
+                <li id="notification" class="ml-notification ch-hide"><a id="notiLink" href="#" title="Notificaciones"
+                                                                         class="ml-icon ch-icon-notification">
+                    Notificaciones <em class="ml-count ch-hide"></em> </a>
 
                     <div class="notification ch-hide">
                         <div class="notification-content">
@@ -437,20 +437,20 @@
                                                                  data-modal:width="400" data-modal:height="240"
                                                                  href="http://www.mercadolibre.com.ar/notifications/config"
                                                                  class="iframe-modal ml-icon ch-icon-cog"></a></div>
-                            <p class="no-notif">Por ahora, no hay nada ac&aacute;.</p>
+                            <p class="no-notif">Por ahora, no hay nada acá.</p>
                             <ul class="notification-container"></ul>
                         </div>
                     </div>
                 </li>
                 <!-- Add ch-hide class -->    <!-- Bookmarks Snippet -->
-                <li id="favorite" class="ml-favorite "><a rel="nofollow"
-                                                          href="http://www.mercadolibre.com.ar/jm/myML?as_section=AIMED_IT"
-                                                          title="Favoritos" class="ml-icon ch-icon-heart">Favoritos</a>
+                <li id="favorite" class="ml-favorite ch-hide"><a rel="nofollow"
+                                                                 href="http://www.mercadolibre.com.ar/jm/myML?as_section=AIMED_IT"
+                                                                 title="Favoritos" class="ml-icon ch-icon-heart">Favoritos</a>
 
                     <div data-favorite="menu" class="favorite-menu-wrapper" title="Favoritos" style="display:none">
                         <div class="favorite-menu favorite-menu-saved">
                             <div class="header"> Favoritos</div>
-                            <div class="favorite-zero">Agrega tus favoritos y s&iacute;guelos desde ac&aacute;.</div>
+                            <div class="favorite-zero">Agrega tus favoritos y síguelos desde acá.</div>
                             <ul></ul>
                             <p class="favorite-all"><a rel="nofollow"
                                                        href="http://www.mercadolibre.com.ar/jm/myML?as_section=AIMED_IT">Ver
@@ -489,561 +489,33 @@
                     <img id="item-image" aria-posinset="1" src=""></div>
             </figure>
         </div>
-        <form action="https://buyingflow.mercadolibre.com.ar/bid/confirm" class="product-info" id="productInfo" method="get">    <!-- data to CHO -->
+        <form action="https://buyingflow.mercadolibre.com.ar/bid/confirm" class="product-info" id="productInfo"
+              method="get">    <!-- data to CHO -->
             <input id="item-id" name="item_id" value="" type="hidden">
 
             <fieldset>
                 <legend>Precio</legend>
                 <article id="item-price" class="price ch-price "></article>
             </fieldset>
-            <!-- Cuotas MP -->
-            <fieldset>    <!-- input to set the payments preferences --> <input id="installmentsQuantyHidden" value="12"
-                                                                                type="hidden"> <input
-                    id="installmentsPriceHidden" value="10.20" type="hidden">
-                <legend class="icon ico-pay-methods ">Medios de pago</legend>
-                <article aria-label="ch-modal-3" class="pay-methods-row pay-without-mp" style="display: none;"><p
-                        id="nonMPPaymentMethodsBlock" class="highlight-info">Pago a acordar con el vendedor.</p><a
-                        href="#">Modificar.</a></article>
-                <article aria-label="ch-modal-4" class="pay-methods-row pay-with-mp"><p><strong class="detail-price"
-                                                                                                id="installments"> 12
-                    cuotas de <span class="ch-price">	$ 10<sup>20</sup>	</span> </strong> <strong
-                        id="installmentsWithoutInterestText" class="stand-out" style="display:none;"> Sin
-                    interés </strong> <span id="withInstallmentText">	con <strong class="mp">MercadoPago</strong>	</span>
-                </p>
-
-                    <div class="selected-payment-methods"><p>Pagando con <span class="cards">	<span
-                            id="cardFromCombo" class="payments-small _visa-small"></span>	</span> <span
-                            id="withBankImg" class="promo-bank">	<span id="bankImg"
-                                                                          class="payments-small _294-small"></span> </span>
-                    </p></div>
-                    <a class="morePaymentsBlock more-info" id="morePayments" href="#"
-                       title="Ver otros medios">Modificar</a></article>
-            </fieldset>
-            <!-- For internacional seller -->
-            <fieldset class="shipment-methods-fildset">
-                <legend class="icon ico-shipment-methods">Formas de envío</legend>
-                <article class="shipment-methods"><p id="customShipping"><span class="highlight-info">Envío a acordar con el vendedor.</span>
-                </p>
-
-                    <p>Ubicado en <span class="where">lanus este (buenos aires)</span></p> <a href="#" id="customQuest"
-                                                                                              class="custom-shipping-quest"
-                                                                                              rel="nofollow">Consultar
-                        costos</a> <a aria-label="ch-modal-13" id="viewOptionShip" class="view-option-shipping" href="#"
-                                      rel="nofollow"></a>
-
-                    <div style="display:none">
-                        <div id="optionShipping" class="option-shipping"></div>
-                    </div>
-                </article>
-            </fieldset>
             <fieldset class="action">
-                <div class="stock-quantity last"> ¡Único disponible!</div>
-                <input name="quantity" value="1" type="hidden">
+                <div class="stock-quantity last">
+                    <label for="productStockQuantity">Cantidad: </label>
 
-                <div class="action-row"><input title="Comprar Antigua Cafetera Express" value="Comprar"
-                                               class="ch-btn ch-btn-big" id="BidButtonTop" type="submit">
-                    <ul class="socialOptions">
-                        <li id="bookmarkMessage"><a aria-describedby="ch-tooltip-15" class="favorite ch-points-lblt"
-                                                    id="bookmark" data-id="MLA543995818" href="#"
-                                                    title="Agregar a favoritos"> <i class="ch-icon-heart"></i> </a></li>
-                        <li><a aria-describedby="ch-tooltip-16" id="fbWant" rel="nofollow"
-                               href="http://social.mercadolibre.com.ar/facebook/oauth?app=want&amp;display=page&amp;redirect_uri=http%3A%2F%2Fsocial.mercadolibre.com.ar%2Faction%2Fwant%3Flisting%3Dhttp%3A%2F%2Farticulo.mercadolibre.com.ar%2FMLA-543995818-antigua-cafetera-express-_JM%26callback%3Dhttp%253A%252F%252Farticulo.mercadolibre.com.ar%252FMLA-543995818-antigua-cafetera-express-_JM%26type%3Dproduct"
-                               data-href="http://social.mercadolibre.com.ar/facebook/oauth?app=want&amp;display=popup&amp;redirect_uri=http%3A%2F%2Fsocial.mercadolibre.com.ar%2Faction%2Fwant%3Flisting%3Dhttp%253A%252F%252Farticulo.mercadolibre.com.ar%252FMLA-543995818-antigua-cafetera-express-_JM%26type%3Dproduct"
-                               class="ch-points-lblt" title="Lo quiero">Lo quiero</a></li>
-                        <li><a aria-describedby="ch-tooltip-17" class="quest scroll-to ch-points-lblt" id="makeQuest"
-                               href="#questions" title="Hacer una pregunta"> <span
-                                class="ch-hide">Hacer una pregunta</span> <i class="ch-icon-comment"></i> </a></li>
-                    </ul>
+                    <div class="stock-quantity-inputs" data-component="quantitySelector">
+                        <input
+                                id="productStockQuantity" class="stock-quantity-input" data-validate="number"
+                                name="quantity" min="1" title="Cantidad de unidades" value="1" autocomplete="off"
+                                type="number">
+                    </div>
                 </div>
-                <!-- END action-row -->    </fieldset>
-            <div class="buyer-protection"><i class="icon ico-bpp"></i> <span class="ch-hide">Programa de protección al comprador:</span>
-                Compra protegida por el <a id="bpplink" rel="nofollow"
-                                           href="http://ayuda.mercadolibre.com.ar/articulo/programa-de-proteccion-al-comprador-1337029483472-000001267"
-                                           target="_blank">Programa de Protección al Comprador</a>.
-            </div>
+                <div class="action-row"><input title="Comprar" value="Comprar"
+                                               class="ch-btn ch-btn-big" id="BidButtonTop" type="submit">
+
+                </div>
+            </fieldset>
         </form>
     </section>
-    <!-- end shortDescription -->    <!-- Reputation Component -->
-    <section id="sellerInfo">
-        <header xmlns="http://www.w3.org/1999/html"><h3>Información sobre el vendedor</h3>
-            <dl class="item-data">
-                <dt class="icon icon-location">Ubicado en&nbsp;:</dt>
-                <dd>Ubicado en <span class="where">villa crespo (capital federal)</span></dd>
-            </dl>
-        </header>
-        <section class="ch-box-container reputation">
-            <header><span>Reputación</span></header>
-            <div class="therm-5_green"><h4 class="ch-hide">Tipo de vendedor</h4>
-                <ol class="reputation-scale">
-                    <li class="level-1">Rojo</li>
-                    <li class="level-2">Naranja</li>
-                    <li class="level-3">Amarillo</li>
-                    <li class="level-4">Verde claro</li>
-                    <li class="level-5 selected"><strong>Verde</strong></li>
-                </ol>
-                <dl class="box-cone tl">
-                    <dt>Tipo de vendedor</dt>
-                    <dd class="medal"><p class="wrap-medal"><i class="ico ico-ml-gold"></i> <span class="rep-title">Este vendedor es <strong>MercadoLíder
-                        Gold</strong></span></p></dd>
-                    <dt>Calificaciones</dt>
-                    <dd class="great-data opinions"><strong>99%</strong> <span>de sus compradores lo recomiendan</span>
-                    </dd>
-                    <dt>Ventas</dt>
-                    <dd class="great-data sales"><strong>2503</strong> <span>ventas concretadas</span></dd>
-                    <dt>Ranking</dt>
-                    <dd><strong class="ranking-data">Excelente
-                        vendedor</strong><span>¡Está entre los mejores del sitio!</span></dd>
-                    <dt>Historial</dt>
-                    <dd><strong class="history-data">10 Meses</strong> <span>vendiendo en MercadoLibre</span></dd>
-                </dl>
-                <a class="more-info" rel="nofollow" href="http://perfil.mercadolibre.com.ar/BLAQU%C3%88+OFICIAL"
-                   target="_blank" title="Ver más datos de este vendedor">Ver más datos de este vendedor</a></div>
-        </section>
-        <!-- sub-section -->    </section>
-    <section id="productDescription">
-        <header><h3>Descripci&oacute;n de la publicaci&oacute;n</h3></header>
-        <!-- noscript: false -->
-        <div id="description">
-            <div class="official-store explains">
-                <div class="wrapper-brand with-brand-img">
-                    <div class="cont-title"><p><i class="icon-official-store"></i> <span
-                            class="label">Tienda oficial</span>
-                    </p>
-
-                        <p class="brand">blaque</p> <a href="http://tienda.mercadolibre.com.ar/blaque">Ver tienda</a>
-                    </div>
-                    <div class="cont-brand-img"><a href="http://tienda.mercadolibre.com.ar/blaque"><img
-                            class="brand-img"
-                            src="http://static.mlstatic.com/org-img/apparel/images/blaque/156853713-logo-g.jpg?v6"/></a>
-                    </div>
-                </div>
-                <div class="explains-block "><span class="quest">Disfruta los beneficios de comprarle directamente a la marca:</span>
-                    <ol class="steps">
-                        <li><span class="circ"><i class="icon-card"></i></span> <span class="step-title">Paga con MercadoPago</span>
-                            <span class="step-txt">Hasta 12 cuotas sin interés.</span></li>
-                        <li><span class="circ"><i class="icon-truck"></i></span> <span class="step-title">Envíos a todo el país</span>
-                            <span class="step-txt">Recibe el producto en tu casa.</span></li>
-                        <li><span class="circ"><i class="icon-cand"></i></span> <span class="step-title">Con la garantía de cada marca</span>
-                            <span class="step-txt">Revisa las políticas de cambio.</span></li>
-                    </ol>
-                </div>
-            </div>
-            <div class="cont-tit-description"></div>
-            <div id="itemDescription" class="description">
-                <div class="">
-                    <p>
-                        <borrad id="desc_ifr" src="http://www.blaque.com.ar/productomeli?id=211495" frameborder="0"
-                                marginwidth="0" marginheight="0" width="1338" height="5971"></iframe>
-                    </p>
-                    <p>
-
-                    <div class="std">
-                        <div>
-                            <table border="0" width="900" cellpadding="0" cellspacing="0" align="center">
-                                <tbody>
-                                <tr>
-                                    <td colspan="2" height="273"><a href="http://tienda.mercadolibre.com.ar/blaque"
-                                                                    target="_blank"> <img
-                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                            alt="blaque" height="313" width="900"
-                                            data-src-original="http://www.blaque.com.ar/mercadolibre/blaque/blaque_01.jpg"
-                                            class="src-lazy-load"/></a></td>
-                                </tr>
-                                <tr>
-                                    <td height="439" width="375"><img
-                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                            alt="Cartera Jeri" width="400" height="400"
-                                            data-src-original="http://www.blaque.com.ar/media/catalog/product/cache/62/image/9df78eab33525d08d6e5fb8d27136e95/c/a/cartera_simil_cuero_57-2434_1.jpg"
-                                            class="src-lazy-load"/></td>
-                                    <td rowspan="2"><img
-                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                            usemap="#Carteras" border="0" height="614" width="525"
-                                            data-src-original="http://www.blaque.com.ar/mercadolibre/blaque/carteras.jpg"
-                                            class="src-lazy-load"/></td>
-                                </tr>
-                                <tr>
-                                    <td style="padding-left: 5px; font-family: Tahoma, Geneva, sans-serif; font-size: 13px;"
-                                        width="375"><p style="text-align: center;font-size: x-large;">Cartera Jeri |
-                                        57/243P</p>
-
-                                        <p style="text-align: center;font-size: x-large;">Cartera de PU. 1 bolsillo
-                                            externo
-                                            con cierre. 1 bolsillo interno con cierre. 1 bolsillo interno sin
-                                            cierre.</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2"><img
-                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                            alt="otros productos" usemap="#Map2" border="0" height="124" width="900"
-                                            data-src-original="http://www.blaque.com.ar/mercadolibre/blaque/blaque_06.jpg"
-                                            class="src-lazy-load"/></td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2"><a href="http://www.mercadolibre.com.ar/gz/promociones-bancos"
-                                                       target="_blank"> <img
-                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                            alt="medios de pago" height="190" width="900"
-                                            data-src-original="http://www.blaque.com.ar/mercadolibre/blaque/blaque_07.jpg"
-                                            class="src-lazy-load"/></a></td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2"><a
-                                            href="http://ayuda.mercadolibre.com.ar/articulo/como-me-entregan-el-producto-000001290"
-                                            target="_blank"> <img
-                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                            alt="envios" height="285" width="900"
-                                            data-src-original="http://www.blaque.com.ar/mercadolibre/blaque/blaque_08.jpg"
-                                            class="src-lazy-load"/></a></td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2"><img
-                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                            alt="calculador de costos" height="231" width="900"
-                                            data-src-original="http://www.blaque.com.ar/mercadolibre/blaque/blaque_09.jpg"
-                                            class="src-lazy-load"/></td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2"><img
-                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                            alt="retiro en sucursal" height="233" width="900"
-                                            data-src-original="http://www.blaque.com.ar/mercadolibre/blaque/blaque_10.jpg"
-                                            class="src-lazy-load"/></td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2"><img
-                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                            alt="preguntas frecuentes" height="271" width="900"
-                                            data-src-original="http://www.blaque.com.ar/mercadolibre/blaque/blaque_11.jpg"
-                                            class="src-lazy-load"/></td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2"><img
-                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                            alt="cambios" height="261" width="900"
-                                            data-src-original="http://www.blaque.com.ar/mercadolibre/blaque/blaque_12.jpg"
-                                            class="src-lazy-load"/></td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2"><a href="http://tienda.mercadolibre.com.ar/blaque" target="_blank">
-                                        <img
-                                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                alt="blaque" height="599" width="900"
-                                                data-src-original="http://www.blaque.com.ar/mercadolibre/blaque/blaque_13.jpg"
-                                                class="src-lazy-load"/></a></td>
-                                </tr>
-                                </tbody>
-                            </table>
-                            <map name="Carteras" id="Carteras">
-                                <area shape="rect" coords="7,317,498,595"
-                                      href="http://bolsos.mercadolibre.com.ar/billeteras-monederos/_Tienda_blaque"
-                                      target="_blank" alt="Accesorios blaque">
-                                <area shape="rect" coords="2,-3,493,298"
-                                      href="http://zapatos.mercadolibre.com.ar/_Tienda_blaque" target="_blank"
-                                      alt="Zapatos blaque">
-                            </map>
-                            <map name="Calzado" id="Calzado">
-                                <area shape="rect" coords="7,317,498,595"
-                                      href="http://listado.mercadolibre.com.ar/ropa/urbain_Tienda_blaque"
-                                      target="_blank"
-                                      alt="Accesorios blaque">
-                                <area shape="rect" coords="2,-3,493,298"
-                                      href="http://bolsos.mercadolibre.com.ar/billeteras-monederos/_Tienda_blaque"
-                                      target="_blank" alt="Zapatos blaque">
-                            </map>
-                            <map name="Accesorios" id="Accesorios">
-                                <area shape="rect" coords="7,317,498,595"
-                                      href="http://bolsos.mercadolibre.com.ar/carteras/_Tienda_blaque" target="_blank"
-                                      alt="Accesorios blaque">
-                                <area shape="rect" coords="2,-3,493,298"
-                                      href="http://zapatos.mercadolibre.com.ar/_Tienda_blaque" target="_blank"
-                                      alt="Zapatos blaque">
-                            </map>
-                            <map name="Map2" id="Map2">
-                                <area shape="rect" coords="1,5,900,123"
-                                      href="http://listado.mercadolibre.com.ar/ropa/urbain_Tienda_blaque"
-                                      target="_blank"
-                                      alt="Urbain blaque">
-                            </map>
-                        </div>
-                    </div>
-                    </p>    </div>
-            </div>
-        </div>
-        <div class="warranty">
-            <div class="w-container"><h5 class="seoH5">Garantía: </h5>
-
-                <p> Si. Leer las condiciones al final de la publicaci&oacute;n</p></div>
-        </div>
-    </section>
-    <form id="shortDescriptionFixed" class="short-desc-fixed " action="" method="post"><a class="fixed-close"
-                                                                                          id="shortDescriptionFixedClose"
-                                                                                          style="z-index:1014"> <i
-            class="ico-close"></i> </a>
-
-        <div class="inner-wrapper">
-            <div class="item"><img id="fixedImg" width="70" height="70"
-                                   src="http://mla-s2-p.mlstatic.com/22620-MLA7755226818_012015-R.jpg">    <h4>Cartera
-                Blaque Para Mujer Jeri</h4>
-
-                <p class="ch-price"> $ 530<sup>00</sup></p>
-
-                <p class="variations" style="display:none;"><span id="variationPicker">	<a href="#"
-                                                                                              id="selectPicker">Elige
-                    un talle y color</a>	</span></p></div>
-            <div class="info">
-                <div class="box mpago"><p class="title"><i class="icon ico-payment"></i></p>
-
-                    <div id="withoutInstallments" class="fixed-content" style="display:none"><p class="highlight-info">
-                        Pago
-                        a acordar con el vendedor.</p></div>
-                    <div id="withInstallments" class="fixed-content"><p class="installments"><span
-                            class='installments-txt'></span> <span id="withoutInterest"
-                                                                   style="display:none;">	<strong
-                            class="stand-out">Sin interés</strong>	</span></p>
-
-                        <p class="cards-mp"> con <strong class="">MercadoPago</strong> <span id="fixedCard"
-                                                                                             class="cards cards-list"></span>
-                            <span class="promo-bank">	<span style="display:none" id="fixedBank" class="cards"></span>	</span>
-                        </p></div>
-                    <p class="options"><a id="customPaymentsBlockFixed" href="#" style="display:none">Más
-                        información</a> <a
-                            id="morePaymentsBlockFixed" class="more-payments-link-layer" href="#">Más opciones</a></p>
-                </div>
-                <div class="box menvio"><p class="title"><i class="icon ico-shipping"></i></p>
-
-                    <p id="destinationFixed" class="fixed-content destination"><span
-                            class='ch-loading-small load-ship-txt'></span></p>
-
-                    <p id="destinationSubFixed"></p>
-
-                    <p class="options"><a id="moreShippingBlockFixed" href="#" style="display: none">Más opciones</a>
-                    </p>
-                </div>
-            </div>
-            <div class="actions"><input type="submit" title="Comprar Cartera Blaque Para Mujer Jeri" value="Comprar"
-                                        class="ch-btn ch-btn-big">
-
-                <p class="bpp-fixed"><i class="icon ico-bpp "></i>Protegida</p></div>
-        </div>
-    </form>
-    <header><h5 id="gotoMpBlock" class="seoH5 typo">Medios de pago</h5>
-
-        <p class="subtitle">Formas de pago ofrecidas por el vendedor</p></header>
-    <div id="mercadoPagoMethods" class="vip-tabs selection-methods">    <!-- tabs -->
-        <ul class="ch-tabs-triggers">
-            <li class="mercado-pago">
-                <div class="box-cone tc"><i></i> <span class="title">MercadoPago</span> <span class="txt">Con tarjeta de cr&eacute;dito y efectivo en puntos de pago</span>
-                </div>
-            </li>
-        </ul>
-        <!-- [end] tabs -->    <!-- content -->
-        <div class="selection-methods-info">    <!-- Meli paymethods -->
-            <div id="gotoMpML">
-                <div class="info-box info-box-header"><h4>Nuestra soluci&oacute;n para que pagues de forma r&aacute;pida,
-                    segura y &iexcl;sin costo adicional!</h4></div>
-                <div class="info-box"><h5><span>&iexcl;Hasta 12 cuotas sin inter&eacute;s!</span></h5>
-
-                    <p>Aprovecha las promociones con estos bancos</p> <!-- banks promos -->
-                    <div class="ch-carousel cont-carousel">    <!-- Carousel Chico -->
-                        <div id="promosCarousel" class="promos-carousel carousel-mock">
-                            <ul class="list ch-carousel-list">
-                                <li class="list-item"><span class="payments-medium _294-medium"></span> <span
-                                        class="installments">6 cuotas</span></li>
-                                <li class="list-item"><span class="payments-medium _288-medium"></span> <span
-                                        class="installments">6 cuotas</span></li>
-                                <li class="list-item"><span class="payments-medium _692-medium"></span> <span
-                                        class="installments">6 cuotas</span></li>
-                                <li class="list-item"><span class="payments-medium _303-medium"></span> <span
-                                        class="installments">3 cuotas</span></li>
-                                <li class="list-item"><span class="payments-medium _1007-medium"></span> <span
-                                        class="installments">6 cuotas</span></li>
-                                <li class="list-item"><span class="payments-medium _282-medium"></span> <span
-                                        class="installments">6 cuotas</span></li>
-                                <li class="list-item"><span class="payments-medium _1026-medium"></span> <span
-                                        class="installments">12 cuotas</span></li>
-                                <li class="list-item"><span class="payments-medium _338-medium"></span> <span
-                                        class="installments">3 cuotas</span></li>
-                                <li class="list-item"><span class="payments-medium _688-medium"></span> <span
-                                        class="installments">3 cuotas</span></li>
-                                <li class="list-item"><span class="payments-medium _272-medium"></span> <span
-                                        class="installments">6 cuotas</span></li>
-                                <li class="list-item"><span class="payments-medium _1005-medium"></span> <span
-                                        class="installments">6 cuotas</span></li>
-                                <li class="list-item"><span class="payments-medium _326-medium"></span> <span
-                                        class="installments">3 cuotas</span></li>
-                                <li class="list-item"><span class="payments-medium _1028-medium"></span> <span
-                                        class="installments">6 cuotas</span></li>
-                            </ul>
-                        </div>
-                        <!-- End Carousel Chico -->    </div>
-                    <a rel="nofollow" class="iframe-modal block-link conditions" data-modal:dinamic="true"
-                       data-modal:url="http://www.mercadolibre.com.ar/gz/condiciones-bancos?modal=true"
-                       data-modal:width="670" data-modal:height="410"
-                       href="http://www.mercadolibre.com.ar/gz/condiciones-bancos">Ver condiciones</a></div>
-                <div class="info-box"><h5><span>M&uacute;ltiples medios de pago</span></h5>
-
-                    <p>Paga online con tarjeta de cr&eacute;dito o en efectivo en puntos de pago</p>
-
-                    <div class="list-wrapper">
-                        <ul class="list pay-methods-list">
-                            <li><span class="payments-small _visa-small"></span></li>
-                            <li><span class="payments-small _master-small"></span></li>
-                            <li><span class="payments-small _amex-small"></span></li>
-                            <li><span class="payments-small _naranja-small"></span></li>
-                            <li><span class="payments-small _nativa-small"></span></li>
-                            <li><span class="payments-small _tarshop-small"></span></li>
-                            <li><span class="payments-small _cencosud-small"></span></li>
-                            <li><span class="payments-small _cabal-small"></span></li>
-                            <li><span class="payments-small _argencard-small"></span></li>
-                            <li><span class="payments-small _diners-small"></span></li>
-                        </ul>
-                    </div>
-                    <div class="list-wrapper">
-                        <ul class="list pay-methods-list">
-                            <li><span class="payments-small _pagofacil-small"></span></li>
-                            <li><span class="payments-small _rapipago-small"></span></li>
-                            <li><span class="payments-small _redlink-small"></span></li>
-                            <li><span class="payments-small _bapropagos-small"></span></li>
-                        </ul>
-                    </div>
-                    <a rel="nofollow" class="iframe-modal block-link more-mp" data-modal:dinamic="true"
-                       data-modal:url="http://www.mercadolibre.com.ar/gz/home/payments/methods?modal=true"
-                       data-modal:width="660" data-modal:height="465"
-                       href="http://www.mercadolibre.com.ar/gz/home/payments/methods">Ver todos</a></div>
-                <div class="info-box"><h5><span>Tu dinero est&aacute; protegido</span></h5>
-
-                    <p>Con MercadoPago tienes 100% de cobertura frente a problemas gracias al <a id='protComprador'
-                                                                                                 rel='nofollow'
-                                                                                                 href='http://ayuda.mercadolibre.com.ar/articulo/programa-de-proteccion-al-comprador-1337029483472-000001267'
-                                                                                                 target='_blank'>Programa
-                        de
-                        Protección al Comprador</a>.<br/></p></div>
-                <!-- [end] info-box -->
-                <div class="info-box"><a rel="nofollow" class="ch-btn selectMP" href="#" id="calculatePayment">Elegir
-                    medio
-                    de pago</a></div>
-            </div>
-            <!-- [end] gotoMpML -->    </div>
-        <!-- [end] contents --></div>
-    <!-- [end] selection-methods -->
-    <header><h5 id="gotoShipBlock" class="seoH5 typo">Formas de entrega</h5>
-
-        <p class="subtitle">Formas de entrega ofrecidas por el vendedor</p></header>
-    <div id="mercadoEnviosMethods" class="vip-tabs selection-methods">    <!-- tabs -->
-        <ul class="ch-tabs-triggers">
-            <li class="mercado-envios"><a class="ch-tab-trigger box-cone tc" href="#gotoShipML"
-                                          title="MercadoEnv&iacute;os"
-                                          data-sec="shippingML"> <i></i> <span class="title">MercadoEnv&iacute;os</span>
-                <span class="txt">Env&iacute;os a todo el pa&iacute;s.</span> </a></li>
-            <li class="local-pick-up"><a class="ch-tab-trigger box-cone tc" href="#gotoShipOM"
-                                         title="Lo retiro por mi cuenta" data-sec="shippingOM"> <i></i> <span
-                    class="title">Lo retiro en domicilio del vendedor</span>
-                <span class="txt">Coordina la entrega <br/> con el vendedor</span> </a></li>
-        </ul>
-        <!-- [end] tabs -->    <!-- content -->
-        <div class="selection-methods-info">
-            <div id="gotoShipML">
-                <div class="info-box info-box-header"><h4>Es el servicio de MercadoLibre que te permite recibir tus
-                    productos de forma r&aacute;pida y segura.</h4></div>
-                <div class="info-box"><h5><span>Medios de env&iacute;o</span></h5>
-
-                    <div class="content-services-type">
-                        <ul class="service-data-box">
-                            <li class="col-short"><h6>Retiro en sucursal OCA</h6>
-                                <ul>
-                                    <li>
-                                        <div class="box-content"><p class="method-type"><i
-                                                class="icon icon-mailbox"></i>
-                                            <span>Sucursal</span></p>    <span
-                                                class="service-name">Retiro en sucursal</span> <span
-                                                class="service-time">Te enviarán el producto a la sucursal de OCA que elijas y tendrás 5 días hábiles para retirarlo.</span>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="col-wide"><h6>Env&iacute;o a domicilio</h6>
-                                <ul>
-                                    <li>
-                                        <div class="box-content"><p class="method-type"><i
-                                                class="ch-icon-envelope-alt"></i>
-                                            <span>Correo</span></p>    <span
-                                                class="service-name">	OCA Prioritario	</span> <span
-                                                class="service-time">Recibirás el producto lo antes posible.</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="box-content"><p class="method-type"><i
-                                                class="ch-icon-envelope-alt"></i>
-                                            <span>Correo</span></p>    <span
-                                                class="service-name">	OCA Estándar	</span> <span
-                                                class="service-time">Es la opción más económica, ideal si no tienes apuro en recibir el producto.</span>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <p class="disclaimer">El tiempo de entrega est&aacute; sujeto a la acreditaci&oacute;n del
-                            pago.</p>
-                    </div>
-                    <!-- [end] content-services-type -->    </div>
-                <!-- [end] info-box -->
-                <div class="info-box"><h5><span>M&aacute;s informaci&oacute;n</span></h5>
-
-                    <div class="quest-box"><p><strong>&iquest;D&oacute;nde recibo el producto?</strong></p>
-
-                        <p>En tu domicilio o en la sucursal OCA que elijas, sin importar en qué lugar del país
-                            estés.</p>
-                    </div>
-                    <div class="quest-box"><p><strong>&iquest;Cu&aacute;nto demora la entrega del producto?</strong></p>
-
-                        <p>Puedes conocer los plazos de entrega con tu código postal desde el <a href='#'
-                                                                                                 class='calculateCostShipping'>calculador
-                            de envíos.</a></p></div>
-                    <div class="quest-box"><p><strong>&iquest;C&oacute;mo pago el env&iacute;o?</strong></p>
-
-                        <p>A trav&eacute;s de MercadoPago, debes pagarlo al mismo tiempo que pagas el producto.</p>
-
-                        <p>Ten en cuenta que si utilizas Pago F&aacute;cil, Rapipago o Provincia Pagos el pago puede
-                            demorarse de 1 a 3 d&iacute;as en acreditarse.</p></div>
-                    <div class="quest-box"><p><strong>&iquest;Cu&aacute;l es el costo de MercadoEnv&iacute;os?</strong>
-                    </p>
-
-                        <p>Para saber cu&aacute;nto pagar&aacute;s de env&iacute;o, ingresa el c&oacute;digo postal del
-                            domicilio en el que quieres recibir el producto.</p></div>
-                </div>
-                <!-- [end] info-box -->
-                <div class="info-box"><p><input type="button" class="ch-btn calculateCostShipping"
-                                                value="Calcular costo con MercadoEnv&iacute;os" id="calculateShipping">
-                </p>
-                </div>
-                <!-- [end] info-box -->    </div>
-            <!-- [end] gotoShipML -->
-            <div id="gotoShipOM">
-                <div class="info-box info-box-header"><h4 class="info-title">Lo retiro en domicilio del vendedor</h4>
-                </div>
-                <!-- [end] info-box-header -->
-                <div class="info-box"><h5><span>&iquest;C&oacute;mo coordino la entrega del producto?</span></h5>
-                    <ol class="local-data-box group-block">
-                        <li><i class="icon-step1"></i>
-
-                            <p>Elige la opción</br><strong>Lo retiro en domicilio del vendedor.</strong></p></li>
-                        <li><i class="icon-step2"></i>
-
-                            <p>Al terminar tu compra,</br>recibirás los datos de tu contraparte para coordinar la
-                                entrega.</p></li>
-                        <li><i class="icon-step3"></i>
-
-                            <p>Contáctate con el vendedor</br>para definir la fecha y el lugar de entrega del
-                                producto.</p>
-                        </li>
-                    </ol>
-                </div>
-                <!-- [end] info-box -->    </div>
-            <!-- [end] gotoShipOM -->    </div>
-        <!-- [end] content / selection-methods-info --></div>
-    <!-- [end] selection methods --></div>
-<!-- end vip-wrapper --><!-- shortDesc END -->
+    
 <header><h5 id="questions" class="seoH5 typo"> Preguntas al vendedor </h5></header>
 <div class="vip-bounds">
     <div class="ch-box-lite new-questions">    <!-- empieza el form -->
@@ -1202,13 +674,13 @@
                 var priceInt = priceString[0];
                 var priceDecimal = priceString[1];
 
-                if(typeof priceInt == 'undefined') {
+                if (typeof priceInt == 'undefined') {
                     priceInt = '';
                 } else {
                     priceInt = item.currency_id + ' ' + priceInt;
                 }
 
-                if(typeof priceDecimal == 'undefined') {
+                if (typeof priceDecimal == 'undefined') {
                     priceDecimal = '';
                 }
 
