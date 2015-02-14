@@ -474,9 +474,7 @@
     }
 })(document);</script>
 
-<!-- Set url registration -->    <!-- Descripcion del producto, boton ofertar, reputacion. -->
-<div class="vip-wrapper vip-os"><!-- Component preheader -->
-    <!-- end nav-path --><!-- Component preheader end -->
+<div class="vip-wrapper vip-os">
     <header class="bg-great-info">
         <h1 id="item-title" itemprop="name"></h1>
     </header>
@@ -515,52 +513,31 @@
             </fieldset>
         </form>
     </section>
-    
-<header><h5 id="questions" class="seoH5 typo"> Preguntas al vendedor </h5></header>
-<div class="vip-bounds">
-    <div class="ch-box-lite new-questions">    <!-- empieza el form -->
-        <div class="nojs-question make-question ">
-            <form class="ch-form-row" action="/question/send" method="post" id="form_quest"><input type="hidden"
-                                                                                                   name="itemId"
-                                                                                                   id="itemId"
-                                                                                                   value="MLA543137667"/>
-                <input type="hidden" name="token" id="token"
-                       value="e5486556576a4f394b6abb3d85840fc0be9d5c5bc8a5c092daebf37d9660dcc2927b43760b78c8f808c2865a5e018881"/>
 
-                <div class="wraper-textarea"><i class="vip-icon ch-icon-comment"></i> <span
-                        class="ch-hide">Pregunta:</span>
+    <header><h5 id="questions" class="seoH5 typo"> Preguntas al vendedor </h5></header>
+    <div class="vip-bounds">
+        <div class="ch-box-lite new-questions">    <!-- empieza el form -->
+            <div class="nojs-question make-question">
+                <form class="ch-form-row" action="http://articulo.mercadolibre.com.ar/question/send" method="post" id="form_quest">
+                    <input name="itemId" id="itemId" value="" type="hidden">
+                    <div class="wraper-textarea"><i class="vip-icon ch-icon-comment"></i> <span class="ch-hide">Pregunta:</span>
 
-                    <p><span id="shippingQuestionContainer" class="ch-hide "> ¡Pst! Puedes <a id="shippingQuestion"
-                                                                                              href="#">calcular el costo
-                        y tiempo de envío</a> tú solo. </span> <textarea class="" name="questionText" id="questionText"
-                                                                         cols="110" width="90%"
-                                                                         title="Escribe tu pregunta..."
-                                                                         placeholder="Escribe tu pregunta...">Escribe tu pregunta... </textarea>
-                    </p></div>
-                <div class="wraper-actions">
-                    <div class="ch-form-actions tips"><input type="submit" value="Preguntar" name="saveQuest"
-                                                             id="saveQuest" class="ch-btn ch-btn-small"> No ingreses
-                        datos de contacto, no uses lenguaje vulgar ni ofertes o preguntes por otro artículo. <p
-                                class="contQuestion">Quedan <span id="display">1000</span> caracteres.</p></div>
-                </div>
-            </form>
+                        <p><textarea style="display: inline-block; height: 150px;" class="editing"
+                                                    name="questionText" id="questionText" cols="110" width="90%"
+                                                    title="Escribe tu pregunta..." placeholder="Escribe tu pregunta..."></textarea>
+                        </p></div>
+                    <div class="wraper-actions">
+                        <div class="ch-form-actions tips"><input value="Preguntar" name="saveQuest"
+                                                                 id="saveQuest"
+                                                                 class="ch-btn ch-btn-small"
+                                                                 type="submit"> No ingreses datos de contacto, no uses
+                            lenguaje vulgar ni ofertes o preguntes por otro artículo.</div>
+                    </div>
+                </form>
+            </div>
         </div>
-        <div id="avgResponseTime" class="hidden time-to-response"><span class="hidden avg-time">	<span
-                class="ico-time"></span>Tiempo aproximado de respuesta: <strong> <span id="avgItemResponseTime"></span>
-            <span id="avgUnitText"></span> </strong>	</span></div>
-        <div id="divPersonalQuestions" class="wrap-personal-questions"><p class="no-questions">Nadie hizo preguntas
-            todavía. ¡Sé el primero!</p>
-
-            <p id="statusQuestion" class="ch-box-ok" style="display:none;"></p>
-            <ol id="personalQuestions" class="list-questions"></ol>
-        </div>
-        <a id="makeQuestIframe" href=""></a> <!-- finaliza el form --> <p class="other-question-title"><strong> Otras
-            preguntas:</strong></p>
-        <ol id="otherQuestions" class="list-questions"></ol>
     </div>
 </div>
-<div id='moreItemsContainer'></div>
-<div id="ml_layer"></div>
 <footer class="ml-footer" role="contentinfo">
     <div class="ml-inner-footer"><h4 id="footerControl" class="ml-footer-control">M&aacute;s informaci&oacute;n<i
             class="ch-icon-chevron-up"></i></h4>
@@ -572,7 +549,8 @@
                     </li>
                     <li><a href="http://investor.mercadolibre.com" data-tracking="FOOTER-INVESTOR">Investor
                         relations</a></li>
-                    <li><a href="http://www.mercadolibre.com.ar/sitemap.html" data-tracking="FOOTER-SITEMAP">Mapa del
+                    <li><a href="http://www.mercadolibre.com.ar/sitemap.html" data-tracking="FOOTER-SITEMAP">Mapa
+                        del
                         sitio</a></li>
                     <li><a href="http://tendencias.mercadolibre.com.ar/"
                            data-tracking="FOOTER-TENDENCIAS">Tendencias</a></li>
@@ -586,12 +564,14 @@
                     <li><a href="http://www.mercadoshops.com.ar" data-tracking="FOOTER-MSHOP">MercadoShops</a></li>
                     <li><a href="http://envios.mercadolibre.com.ar"
                            data-tracking="FOOTER-MENVIOS">MercadoEnv&iacute;os</a></li>
-                    <li><a href="http://developers.mercadolibre.com" data-tracking="FOOTER-DEVELOP">Developers</a></li>
+                    <li><a href="http://developers.mercadolibre.com" data-tracking="FOOTER-DEVELOP">Developers</a>
+                    </li>
                 </ul>
             </div>
             <div class="ch-g1-5"><h5>Ayuda</h5>
                 <ul>
-                    <li><a href="http://ayuda.mercadolibre.com.ar/articulo/comprar-un-producto-1337029481860-000001241"
+                    <li>
+                        <a href="http://ayuda.mercadolibre.com.ar/articulo/comprar-un-producto-1337029481860-000001241"
                            data-tracking="FOOTER-HELPCOMPRAR">Comprar</a></li>
                     <li><a href="http://ayuda.mercadolibre.com.ar/categoria/vender-sell"
                            data-tracking="FOOTER-HELPVENDER">Vender</a></li>
@@ -606,7 +586,8 @@
                     <li id="f-login" class='ch-hide'><a rel="nofollow"
                                                         href="https://www.mercadolibre.com/jms/mla/lgz/login"
                                                         data-tracking="FOOTER-INGRESAR">Ingresar</a></li>
-                    <li id="f-account" class=''><a rel="nofollow" href="http://myaccount.mercadolibre.com.ar/summary/"
+                    <li id="f-account" class=''><a rel="nofollow"
+                                                   href="http://myaccount.mercadolibre.com.ar/summary/"
                                                    data-tracking="FOOTER-RESUMEN">Resumen</a></li>
                     <li id="f-bookmarks" class=''><a rel="nofollow"
                                                      href="http://myaccount.mercadolibre.com.ar/bookmarks/list"
@@ -630,7 +611,8 @@
             <ul class="ml-links">
                 <li><a href="http://www.mercadolibre.com.ar/seguro_terminos.html" data-tracking="FOOTER-TERMINOS">T&eacute;rminos
                     y condiciones</a></li>
-                <li><a href="http://www.mercadolibre.com.ar/seguro_privacidad.html" data-tracking="FOOTER-PRIVACIDAD">Pol&iacute;ticas
+                <li><a href="http://www.mercadolibre.com.ar/seguro_privacidad.html"
+                       data-tracking="FOOTER-PRIVACIDAD">Pol&iacute;ticas
                     de privacidad</a></li>
                 <li><a href="http://www.mercadolibre.com.ar/jm/ml.faqs.framework.main.FaqsController?pageId=home"
                        data-tracking="FOOTER-AYUDA">Ayuda</a></li>
@@ -638,27 +620,12 @@
         </div>
     </div>
 </footer>
-<!--/div-->
-<script>    (function () {
-    var iframe = document.createElement('iframe');
-    (iframe.frameElement || iframe).style.cssText = "width: 0; height: 0; border: 0; position: absolute";
-    iframe.src = "javascript:false";
-    var where = document.getElementsByTagName('script')[0];
-    where.parentNode.insertBefore(iframe, where);
-    var doc = iframe.contentWindow.document;
-    doc.open().write('<body onload="var js = document.createElement(\'script\'); js.src = \'http://dejavu.mercadolibre.com.ar/cross_pixels.js\' ; document.body.appendChild(js);">');
-    doc.close();
-})();    </script>
-<div id="pmspxlimg"></div>
-<div id="meli-ads-vip-print"></div>
 
 <script type="text/javascript">
     function fillPage() {
         var patt = /[A-Z]{3}-\d+/;
 
         var itemId = patt.exec(document.location)[0].replace('-', '');
-
-        console.log('jddsj', itemId);
 
         var url = 'https://api.mercadolibre.com/items/' + itemId;
 
@@ -669,6 +636,7 @@
                 $('#item-title').html(item.title);
                 $('#item-image').attr('src', item.pictures[0].url);
                 $('#item-id').attr('value', item.id);
+                $('#form_quest #itemId').attr('value', item.id);
                 var priceString = item.price.toString().split('.');
 
                 var priceInt = priceString[0];
@@ -694,7 +662,7 @@
     }
 
     fillPage();
-
+    
 </script>
 </body>
 </html>
